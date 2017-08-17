@@ -15,7 +15,7 @@ It won't be necessary if https://github.com/fchollet/keras/issues/789 is ever pr
 import keras
 import pickle
 
-import KerasPickleWrapper from keras_pickle_wrapper
+from keras_pickle_wrapper import KerasPickleWrapper
 
 ins = keras.layers.Input((2,))
 x = ins
