@@ -62,6 +62,6 @@ If your model takes 1GB of RAM, the default approach should require 2GB addition
 
 ## Changelog
 
-* 2017-8-17 - Renamed to keras-pickle-wrapper because PyPI.
+* 2017-8-17 - Renamed to keras-pickle-wrapper because PyPI.  V1.0.2.
 * 2017-8-17 - Packaged up KerasWrapper for PyPI distribution.
 

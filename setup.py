@@ -1,9 +1,16 @@
 from distutils.core import setup
+import os
+
+with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'README.md'),
+        encoding='utf-8') as f:
+    long_desc = f.read()
+
 setup(
         name='keras-pickle-wrapper',
         packages=['keras_pickle_wrapper'],
-        version='1.0.1',
+        version='1.0.2',
         description='A small library that wraps Keras models to pickle them.',
+        long_description=long_desc,
         author='Walt Woods',
         author_email='woodswalben@gmail.com',
         url='https://github.com/wwoods/keras_pickle_wrapper',
