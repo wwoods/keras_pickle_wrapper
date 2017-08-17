@@ -1,8 +1,8 @@
 from distutils.core import setup
 setup(
-        name='keras_pickle_wrapper',
+        name='keras-pickle-wrapper',
         packages=['keras_pickle_wrapper'],
-        version='1.0.0',
+        version='1.0.1',
         description='A small library that wraps Keras models to pickle them.',
         author='Walt Woods',
         author_email='woodswalben@gmail.com',

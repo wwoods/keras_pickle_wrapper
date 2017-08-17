@@ -6,7 +6,7 @@ It won't be necessary if https://github.com/fchollet/keras/issues/789 is ever pr
 
 ## Installation
 
-`pip install keras_pickle_wrapper`
+`pip install keras-pickle-wrapper`
 
 ## Usage
 
@@ -62,5 +62,6 @@ If your model takes 1GB of RAM, the default approach should require 2GB addition
 
 ## Changelog
 
+* 2017-8-17 - Renamed to keras-pickle-wrapper because PyPI.
 * 2017-8-17 - Packaged up KerasWrapper for PyPI distribution.
 
