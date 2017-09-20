@@ -40,7 +40,7 @@ def _register_custom_class(cls):
 # approach is not strict enough for general use, though.
 _keras_pickle_pid = [None]
 def _keras_pickle_pid_check():
-    my_pid = (os.getpid(), threading.get_ident())
+    my_pid = (os.getpid(), threading.current_thread().ident)
     if _keras_pickle_pid[0] is None:
         _keras_pickle_pid[0] = my_pid
     elif _keras_pickle_pid[0] != my_pid:
