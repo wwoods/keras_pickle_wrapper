@@ -63,6 +63,7 @@ If your model takes 1GB of RAM, the default approach should require 2GB addition
 
 ## Changelog
 
+* 2018-7-17 - Fix for Python 2 in setup.py (FileNotFoundError not existing in Python 2.7), up to V1.0.5.
 * 2017-9-19 - Fix for Python 2, up to V1.0.3.
 * 2017-8-17 - Renamed to keras-pickle-wrapper because PyPI.  V1.0.2.
 * 2017-8-17 - Packaged up KerasWrapper for PyPI distribution.
